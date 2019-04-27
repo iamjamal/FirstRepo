@@ -1,0 +1,290 @@
+{
+    "bodyClasses": "sd-bg-color v1",
+    "head": [{
+        "children": [{
+            "renderingComponentCssClasses": "",
+            "componentLayoutType": "component",
+            "componentInstanceId": "component-head-v1-01"
+        }]
+    }],
+    "body": [
+        "{{%.layout:common/_header-v3.%}}",
+        {
+        // PAGE WRAPPER
+        "renderingContainerHtmlElement": "div",
+        "renderingContainerCssClasses": "sd-page-wrapper",
+        "componentLayoutType": "container",
+        "children": [{
+            // MAIN WRAPPER
+            "renderingContainerHtmlElement": "main",
+            "renderingContainerCssClasses": "sd-main-wrapper sd-page-width",
+            "componentLayoutType": "container",
+            "children": [{
+                // ROW
+                "renderingContainerHtmlElement": "div",
+                "renderingContainerCssClasses": "row",
+                "componentLayoutType": "container",
+                "children": [{
+                    // COMPONENTS WRAPPER - 24 COLUMN
+                    "renderingContainerHtmlElement": "div",
+                    "renderingContainerCssClasses": "sd-main-hero col-xxs-24",
+                    "componentLayoutType": "container",
+                    "children": [
+
+                        // ------------- START HERO COMPONENTS HERE
+
+                        {
+                            // DESKTOP ADVERTISEMENT - 1x1 #1
+                            "renderingComponentCssClasses": "ddb-no-margin",
+                            "componentLayoutType": "component",
+                            "componentInstanceId": "component-ddb-1x1-v1-01-desktop"
+                        }, {
+                            // DESKTOP ADVERTISEMENT - 728x90 #1
+                            "renderingComponentCssClasses": "ddb-align-center v2 news3",
+                            "componentLayoutType": "component",
+                            "componentInstanceId": "component-ddb-728x90-v1-01-desktop"
+                        }, {
+                            // MOBILE ADVERTISEMENT - 320x50 #1
+                            "renderingComponentCssClasses": "ddb-align-center",
+                            "componentLayoutType": "component",
+                            "componentInstanceId": "component-ddb-320x50-v1-01-mobile"
+                        }, {
+                            // DESKTOP ADVERTISEMENT - Sliding Billboard
+                            "renderingComponentCssClasses": "",
+                            "componentLayoutType": "component",
+                            "componentInstanceId": "component-ddb-sliding_billboard-v1-01-desktop"
+                        }, {
+                            // TITLE COMPONENT W/ SPONSORED DDB
+                            "renderingComponentCssClasses": "",
+                            "componentLayoutType": "component",
+                            "componentInstanceId": "component-title-page_title_w_ddb-v1-01"
+                        }
+
+                        // --------------- END HERO COMPONENTS
+
+                    ]
+                }]
+            }, {
+                // ROW
+                "renderingContainerHtmlElement": "div",
+                "renderingContainerCssClasses": "row",
+                "componentLayoutType": "container",
+                "children": [{
+                    // MAIN WRAPPER - 24 COLUMN
+                    "renderingContainerHtmlElement": "div",
+                    "renderingContainerCssClasses": "sd-main col-xxs-24",
+                    "componentLayoutType": "container",
+                    "children": [{
+                        // ROW
+                        "renderingContainerHtmlElement": "div",
+                        "renderingContainerCssClasses": "row",
+                        "componentLayoutType": "container",
+                        "children": [{
+                            // MAIN CONTENT WRAPPER - 18 COLUMN
+                            "renderingContainerHtmlElement": "div",
+                            "renderingContainerCssClasses": "sd-main-content col-xxs-24 col-md-18",
+                            "componentLayoutType": "container",
+                            "children": [
+
+                                // ------------- START MAIN CONTENT COMPONENTS HERE
+
+                                {
+                                    // AGGREGATE SPORTS TEASER LIST - LARGE V1-01
+                                    "renderingContainerCssClasses": "sd-component",
+                                    "componentLayoutType": "component",
+                                    "componentInstanceId": "component-teaser-large-v1-01"
+                                }, {
+                                    // DESKTOP ADVERTISEMENT - 728x90 #2
+                                    "renderingComponentCssClasses": "sd-component ddb-align-center",
+                                    "componentLayoutType": "component",
+                                    "componentInstanceId": "component-ddb-728x90-v1-02-desktop"
+                                }, {
+                                    // FRIDAY NIGHT RIVALS TEASER LIST - LARGE HERO IMAGES V1-01
+                                    "renderingContainerHtmlElement": "div",
+                                    "renderingContainerCssClasses": "sd-component",
+                                    "componentLayoutType": "component",
+                                    "componentInstanceId": "component-teaser-large_hero_images-v1-01"
+                                }, {
+                                    // MOBILE ADVERTISEMENT - 320x50 #2
+                                    "renderingComponentCssClasses": "ddb-align-center",
+                                    "componentLayoutType": "component",
+                                    "componentInstanceId": "component-ddb-320x50-v1-02-mobile"
+                                }, {
+                                    // FRIDAY NIGHT RIVALS LIST W/ AD
+                                    "renderingContainerHtmlElement": "div",
+                                    "renderingContainerCssClasses": "row",
+                                    "componentLayoutType": "container",
+                                    "children": [{
+                                        "renderingContainerHtmlElement": "div",
+                                        "renderingContainerCssClasses": "col-xxs-24 col-md-12 col-lg-16",
+                                        "componentLayoutType": "container",
+                                        "children": [{
+                                            // FRIDAY NIGHT RIVALS MINOR TEASER - NO TITLE - MEDIUM V1-01
+                                            "componentLayoutType": "component",
+                                            "renderingContainerCssClasses": "sd-component",
+                                            "componentInstanceId": "component-teaser-medium-v1-01"
+                                        }]
+                                    }, {
+                                        "renderingContainerHtmlElement": "div",
+                                        "renderingContainerCssClasses": "col-xxs-24 col-md-12 col-lg-8",
+                                        "componentLayoutType": "container",
+                                        "children": [{
+                                            // DESKTOP ADVERTISEMENT - 300x250 #4
+                                            "renderingComponentCssClasses": "",
+                                            "componentLayoutType": "component",
+                                            "componentInstanceId": "component-ddb-300x250-v1-04-desktop"
+                                        }]
+                                    }]
+                                }, {
+                                    // GAME CHANGER TEASER LIST - LARGE HERO IMAGES V1-02
+                                    "renderingContainerHtmlElement": "div",
+                                    "renderingContainerCssClasses": "sd-component",
+                                    "componentLayoutType": "component",
+                                    "componentInstanceId": "component-teaser-large_hero_images-v1-02"
+                                }, {
+                                    // MOBILE ADVERTISEMENT - 320x50 #3
+                                    "renderingComponentCssClasses": "ddb-align-center",
+                                    "componentLayoutType": "component",
+                                    "componentInstanceId": "component-ddb-320x50-v1-03-mobile"
+                                }, {
+                                    // GAME CHANGER LIST W/ AD
+                                    "renderingContainerHtmlElement": "div",
+                                    "renderingContainerCssClasses": "row",
+                                    "componentLayoutType": "container",
+                                    "children": [{
+                                        "renderingContainerHtmlElement": "div",
+                                        "renderingContainerCssClasses": "col-xxs-24 col-md-12 col-lg-16",
+                                        "componentLayoutType": "container",
+                                        "children": [{
+                                            // GAME CHANGER TEASER LIST - NO TITLE - MEDIUM V1-02
+                                            "componentLayoutType": "component",
+                                            "renderingContainerCssClasses": "sd-component",
+                                            "componentInstanceId": "component-teaser-medium-v1-02"
+                                        }]
+                                    }, {
+                                        "renderingContainerHtmlElement": "div",
+                                        "renderingContainerCssClasses": "col-xxs-24 col-md-12 col-lg-8",
+                                        "componentLayoutType": "container",
+                                        "children": [{
+                                            // DESKTOP ADVERTISEMENT - 300x250 #5
+                                            "renderingComponentCssClasses": "",
+                                            "componentLayoutType": "component",
+                                            "componentInstanceId": "component-ddb-300x250-v1-05-desktop"
+                                        }]
+                                    }]
+
+                                }
+
+                                // --------------- END MAIN CONTENT COMPONENTS
+
+                            ]
+                        }, {
+                            // MAIN SIDEBAR WRAPPER - 6 COLUMN
+                            "renderingContainerHtmlElement": "div",
+                            "renderingContainerCssClasses": "sd-main-sidebar col-xxs-24 col-md-6",
+                            "componentLayoutType": "container",
+                            "children": [
+
+                                // ------------- START SIDEBAR COMPONENTS HERE
+
+                                {
+                                    // DESKTOP ADVERTISEMENT - 300x250 #1
+                                    "renderingComponentCssClasses": "",
+                                    "componentLayoutType": "component",
+                                    "componentInstanceId": "component-ddb-300x250-v1-01-desktop"
+                                }, {
+                                    // MOBILE ADVERTISEMENT - 300x250 #1
+                                    "renderingComponentCssClasses": "ddb-align-center",
+                                    "componentLayoutType": "component",
+                                    "componentInstanceId": "component-ddb-300x250-v1-01-mobile"
+                                }, {
+                                    // SCORESTREAM
+                                    "renderingComponentCssClasses": "sd-component",
+                                    "componentLayoutType": "component",
+                                    "componentInstanceId": "component-custom-scorestream-v2-01"
+                                }, {
+                                    // TRENDING TEASER LIST
+                                    "renderingComponentCssClasses": "sd-component",
+                                    "componentLayoutType": "component",
+                                    "componentInstanceId": "col1_vertical_list_trending"
+                                }, {
+                                    // DESKTOP ADVERTISEMENT - 300x250 #2
+                                    "renderingComponentCssClasses": "",
+                                    "componentLayoutType": "component",
+                                    "componentInstanceId": "component-ddb-300x250-v1-02-desktop"
+                                }, {
+                                    // MOBILE ADVERTISEMENT - 300x250 #2
+                                    "renderingComponentCssClasses": "ddb-align-center",
+                                    "componentLayoutType": "component",
+                                    "componentInstanceId": "component-ddb-300x250-v1-02-mobile"
+                                }, {
+                                    // MORE TO EXPLORE - SIDEBAR TEASER LIST
+                                    "renderingComponentCssClasses": "sd-component",
+                                    "componentLayoutType": "component",
+                                    "componentInstanceId": "component-teaser-sidebar-v1-02"
+                                }, {
+
+                                    // DESKTOP ADVERTISEMENT - 300x250 #3
+                                    "renderingComponentCssClasses": "",
+                                    "componentLayoutType": "component",
+                                    "componentInstanceId": "component-ddb-300x250-v1-03-desktop"
+                                }, {
+                                    // MOBILE ADVERTISEMENT - 300x250 #3
+                                    "renderingComponentCssClasses": "ddb-align-center",
+                                    "componentLayoutType": "component",
+                                    "componentInstanceId": "component-ddb-300x250-v1-03-mobile"
+                                }
+
+                                // --------------- END SIDEBAR COMPONENTS
+
+                            ]
+                        }]
+                    }]
+                }]
+            }]
+        }, {
+            // FOOTER WRAPPER
+            "renderingContainerHtmlElement": "footer",
+            "renderingContainerCssClasses": "sd-footer-wrapper",
+            "componentLayoutType": "container",
+            "children": [
+
+                // --------------- START FOOTER COMPONENTS HERE
+
+                {
+                    // PAGE WIDTH FOR AD
+                    "renderingContainerHtmlElement": "div",
+                    "renderingContainerCssClasses": "sd-page-width",
+                    "componentLayoutType": "container",
+                    "children": [
+                        {
+                            // DESKTOP ADVERTISEMENT - 728x90 #3
+                            "componentLayoutType": "component",
+                            "componentInstanceId": "component-ddb-728x90-v1-03-desktop",
+                            "renderingComponentCssClasses": "ddb-align-left"
+                        }, {
+                            // Renumber this based on the number of custom sections
+                            // MOBILE ADVERTISEMENT - 320x50 #3
+                            "renderingComponentCssClasses": "ddb-align-center",
+                            "componentLayoutType": "component",
+                            "componentInstanceId": "component-ddb-320x50-v1-03-mobile"
+                        }
+                    ]
+                }, {
+                    // FOOTER COMPONENT
+                    "renderingComponentCssClasses": "",
+                    "componentLayoutType": "component",
+                    "componentInstanceId": "footer"
+                }, {
+                    //DEBUG COMPONENT
+                    "renderingComponentCssClasses": "",
+                    "componentLayoutType": "component",
+                    "componentInstanceId": "component-footer-debug-v1-01"
+                }
+
+                // --------------- END FOOTER COMPONENTS
+
+            ]
+        }]
+    }]
+}
