@@ -1,1 +1,3 @@
 this is a newfile newfile
+
+this is also new text added to this file. 
