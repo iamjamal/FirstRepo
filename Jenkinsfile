@@ -22,6 +22,9 @@ pipeline {
         success { 
             echo "I was successfull"
         }
+        failure {
+            echo "I failed :("
+        }
     }
     }
     
