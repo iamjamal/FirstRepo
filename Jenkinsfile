@@ -18,7 +18,11 @@ pipeline {
             }
         }
     }
-    
+    post {
+        success { 
+            echo "I was successfull"
+        }
+    }
     }
     
 
