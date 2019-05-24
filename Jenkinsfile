@@ -18,10 +18,7 @@ pipeline {
             }
         }
     }
-    post {
-        success {
-            echo "Hello world" 
-        }
+    
     }
     
 
