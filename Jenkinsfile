@@ -1,34 +1,21 @@
 pipeline {
-        agent any
-        stage("Checkout"){
+    agent any
 
-            checkout scm
-        }
-
-        stage("Build"){
-            echo "building something"
-            // sh './build.sh'
-
-        }
-
-        stage("Run Unit|Integration Tests"){
-            echo "running tests"
+    stages {
+        stage('Build') {
+            steps {
+                echo 'Building..'
             }
-
         }
-
-
-        stage("Publish to S3"){
-
-            echo "publishing output of build to AWS s3 bucket"
-
+        stage('Test') {
+            steps {
+                echo 'Testing..'
+            }
         }
-
-  post {
-    success {
-      echo "I was successful" 
-      }
-    failure {
-       echo "I failed"
+        stage('Deploy') {
+            steps {
+                echo 'Deploying....'
+            }
+        }
     }
 }
