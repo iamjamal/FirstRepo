@@ -15,7 +15,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 error (
-                    this errorerd
+                    this "errorerd"
                       )
                 
                 echo 'Deploying....'
